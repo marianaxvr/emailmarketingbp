@@ -1,145 +1,261 @@
 <html dir="ltr">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <title>Blume Beauty</title>
+        <title>Pós-graduação - PUC Goiás</title>
         <style>
-/* cyrillic-ext */
+            /* cyrillic-ext */
 @font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs169vsUtiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/memnYaGs126MiZpBA-UFUKXGUdhmIqOjjg.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs169vsUJiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/memnYaGs126MiZpBA-UFUKXGUdhvIqOjjg.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/memnYaGs126MiZpBA-UFUKXGUdhnIqOjjg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/memnYaGs126MiZpBA-UFUKXGUdhoIqOjjg.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs169vsUliZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/memnYaGs126MiZpBA-UFUKXGUdhkIqOjjg.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs169vsUhiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/memnYaGs126MiZpBA-UFUKXGUdhlIqOjjg.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs169vsUZiZQ.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUJiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUliZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUhiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUtiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUJiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUliZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUhiZTaR.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUZiZQ.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v21/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-</style>
-
+        </style>
     </head>
     <body bgcolor="#f5f5f5" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
         <div id="wrapper" dir="ltr" style="background-color: #f5f5f5; margin: 0; padding: 70px 0 70px 0; -webkit-text-size-adjust: none !important; width: 100%;">
@@ -149,270 +265,103 @@
                         <table border="0" cellpadding="0" cellspacing="0" width="700" bgcolor="#f5f5f5">
                             <tr>
                                 <td width="15"></td>
-                                <td><p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 12px; font-weight: 300; color: #595a5c; margin: 0 0 10px; text-align: center;">E claro, te dar aquela #dicadeamiga dos melhores produtinhos!</p></td>
+                                <td><p style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 12px; font-weight: 300; color: #595a5c; margin: 0 0 10px; text-align: center;">Últimas Vagas - Pós-Graduação em Docência no Ensino Superior</p></td>
                                 <td width="15"></td>
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <tr>
-                    <td align="left" valign="top" bgcolor="#ffffff">
+                    <td align="center" valign="top" bgcolor="#ffffff">
                         <div style="display: block; line-height: 10px; padding: 0">
-                            <a href="https://blumebeauty.com.br/como-evitar-desperdicios-no-seu-skin-care/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/header.png" width="700" height="476" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
+                            <a href="https://scontent.fplu3-1.fna.fbcdn.net/v/t39.30808-6/265645600_276434897848238_3908077073155910599_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=MxcyuMIKbHcAX_wjB-w&_nc_ht=scontent.fplu3-1.fna&oh=00_AT9SJUEtdz7bBadUcUCzYqDOlVOxOdGSJ3WO3E6QY950sw&oe=61BC22D6" style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 22px; font-weight: 700; color: #fff; text-decoration: none; border: 0;"><img src="images/header.png" width="700" height="383" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <td bgcolor="#FCFAF8" style="background-image: url('images/bg-01.png'); background-size: cover; background-position: left center; height: 1265px;" valign="top">
-                        <table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
+                    <td bgcolor="#ffffff" height="55"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table border="0" cellpadding="0" cellspacing="0" width="700" bgcolor="#ffffff" align="center">
                             <tr>
-                                <td width="50"></td>
+                                <td width="60"></td>
                                 <td>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #595959; margin: 25px 0 35px; font-weight: 300; text-align: center; line-height: 24px;">Que nós todas somos completamentes apaixonadas por Skin Care todo mundo já sabia, né? Mas a novidade mesmo é que, pensando nesse ritual que a gente tanto ama, de autocuidado e principalmente de amor próprio, hoje nós queremos aliar o útil ao agradável e te ensinar a como evitar desperdícios na hora que você for realizar o seu skin care, e claro, te dar aquela #dicadeamiga dos melhores produtinhos!</p>
-                                    <div style="display: block; line-height: 10px; padding: 0">
-                                        <img src="https://media3.giphy.com/media/yNfIpRlSVjXpW9Nx4i/giphy.gif?cid=dda24d50c18c68596205b75d314aa4cf5cc09e693e800aa7\u0026rid=giphy.gif\u0026ct=g" width="356" height="356" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none" />
-                                    </div>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #595959; margin: 35px 0 35px; font-weight: 300; text-align: center; line-height: 24px;">Então já se prepare porque agora você não vai ter mais desculpas para realizar o seu cronograma certinho, e o melhor de tudo: vai poder cuidar ainda mais de si mesma, evitando desperdícios e economizando o seu rico dinheirinho. Vem com a gente?</p>
-                                    <div style="display: block; line-height: 10px; padding: 0">
-                                        <img src="https://media4.giphy.com/media/5LcfoE5u34kfNvW1Oi/giphy-downsized-medium.gif?cid=dda24d506df57fbb7c9d073752b6147582581ed7a5d0c9d3\u0026rid=giphy-downsized-medium.gif\u0026ct=g" width="422" height="351" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none" />
-                                    </div>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #595959; margin: 35px 0 25px; font-weight: 300; text-align: center; line-height: 24px;">A dica fundamental para você economizar o seu produto, independentemente da marca, é saber a quantidade correta que deve ser utilizada de cada item. Então vamos a uma lista básica com apenas 4 passos, que você consegue realizar sem precisar dedicar muito tempo:</p>
+                                    <p style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 21px; font-weight: 400; color: #252424; margin: 0 0 35px; line-height: 36px; text-align: justify;">Restam <strong style="font-family: 'Open Sans', Tahoma, sans-serif;">POUCAS VAGAS</strong> para você dar um <strong style="font-family: 'Open Sans', Tahoma, sans-serif;">upgrade na sua carreira acadêmica.</strong></p>
+                                    <p style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 21px; font-weight: 400; color: #252424; margin: 0; line-height: 36px; text-align: justify;">Além disso, o curso aborda ainda a anatomofisiologia Humana e a Anatomia radiológica por meio de <strong style="font-family: 'Open Sans', Tahoma, sans-serif;">aulas práticas nos laboratórios com peças naturais, sintéticas e no ambiente de realidade virtual da PUC Goiás.</strong></p>
                                 </td>
-                                <td width="50"></td>
+                                <td width="60"></td>
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <tr>
-                    <td align="left" valign="top" bgcolor="#ffffff">
+                    <td bgcolor="#ffffff" height="40"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff">
                         <div style="display: block; line-height: 10px; padding: 0">
-                            <img src="images/titulo.png" width="700" height="95" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none">
+                            <img src="images/borda.png" width="471" height="5" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <td align="left" valign="top" bgcolor="#ffffff" height="11">&nbsp;</td>
+                    <td bgcolor="#D5D5D5" height="60"></td>
                 </tr>
                 <tr>
-                    <td bgcolor="#9BE1DB" style="background-image: url('images/01.png'); background-size: cover; background-position: left center; height: 314px;">
-                        <table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
+                    <td bgcolor="#D5D5D5">
+                        <table border="0" cellpadding="0" cellspacing="0" width="700" bgcolor="#D5D5D5" align="center">
                             <tr>
-                                <td width="90" valign="top"></td>
-                                <td valign="top" width="159">
-                                    <table border="0" cellpadding="0" cellspacing="0" width="159" align="center">
-                                        <tr>
-                                            <td valign="top" width="159">
-                                                <div style="display: block; line-height: 10px; padding: 0">
-                                                    <a href="https://blumebeauty.com.br/produto/gel-de-limpeza-suave-effaclar-150g-la-roche-posay/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/produto-01.png" width="159" height="206" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="7" height="8"></td>
-                                        </tr>
-                                        <tr>
-                                            <tr>
-                                                <td valign="top" width="159">
-                                                    <div style="display: block; line-height: 10px; padding: 0">
-                                                        <a href="https://blumebeauty.com.br/produto/gel-de-limpeza-suave-effaclar-150g-la-roche-posay/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/adorei.png" width="159" height="40" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <td width="54" valign="top"></td>
+                                <td width="55"></td>
                                 <td>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #fff; margin: 0 0 25px; text-align: left; font-weight: 300; line-height: 28px;">Comece o seu dia <a href="https://blumebeauty.com.br/product-category/pele/limpeza-facial/" style="text-decoration: none; color: #fff; border: 0; font-weight: 400;">higienizando</a> a sua pele com um gel de limpeza. A quantidade de produto que você deve aplicar é de uma colher de chá apenas.</p>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #fff; margin: 0; text-align: left; font-weight: 300; line-height: 28px;">*A nossa sugestão é o <a href="https://blumebeauty.com.br/produto/gel-de-limpeza-suave-effaclar-150g-la-roche-posay/" style="text-decoration: none; color: #fff; border: 0; font-weight: 400;">Gel de Limpeza Effaclar Alta Tolerância da La Roche-Posay</a>, que limpa a pele suavemente reduzindo a oleosidade e eliminando o brilho.</p>
+                                    <p style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 19px; font-weight: 400; color: #252424; margin: 0; line-height: 36px; text-align: center; text-transform: uppercase;"><strong style="font-family: 'Open Sans', Tahoma, sans-serif; font-weight: 700;">Quer saber sobre esses e outros diferenciais <br />do curso de Diagnóstico por Imagem?</strong></p>
                                 </td>
-                                <td width="50" valign="top"></td>
+                                <td width="55"></td>
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <tr>
-                    <td align="left" valign="top" bgcolor="#ffffff" height="17">
-                    </td>
+                    <td bgcolor="#D5D5D5" height="40"></td>
                 </tr>
                 <tr>
-                    <td bgcolor="#8EE7C7" style="background-image: url('images/02.png'); background-size: cover; background-position: left center; height: 315px;">
-                        <table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
+                    <td bgcolor="#D5D5D5">
+                        <table border="0" cellpadding="0" cellspacing="0" width="700" bgcolor="#D5D5D5" align="center">
                             <tr>
-                                <td width="90" valign="top"></td>
-                                <td valign="top" width="159">
-                                    <table border="0" cellpadding="0" cellspacing="0" width="159" align="center">
-                                        <tr>
-                                            <td valign="top" width="188">
-                                                <div style="display: block; line-height: 10px; padding: 0">
-                                                    <a href="https://blumebeauty.com.br/produto/esfoliante-facial-acne-proofing-100ml-neutrogena/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/produto-02.png" width="159" height="206" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="7" height="8"></td>
-                                        </tr>
-                                        <tr>
-                                            <tr>
-                                                <td valign="top" width="188">
-                                                    <div style="display: block; line-height: 10px; padding: 0">
-                                                        <a href="https://blumebeauty.com.br/produto/esfoliante-facial-acne-proofing-100ml-neutrogena/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/quero.png" width="159" height="40" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <td width="54" valign="top"></td>
-                                <td>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #fff; margin: 0 0 25px; text-align: left; font-weight: 300; line-height: 28px;">Uma vez por semana, você precisa esfoliar a sua <a href="https://blumebeauty.com.br/product-category/pele/" style="text-decoration: none; color: #fff; border: 0; font-weight: 400;">pele</a> para promover uma limpeza profunda nos seus poros. Para isso, utilize apenas uma colher de chá do produto.</p>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #fff; margin: 0; text-align: left; font-weight: 300; line-height: 28px;">*O nosso produto favorito para promover essa esfoliação é o <a href="https://blumebeauty.com.br/produto/esfoliante-facial-acne-proofing-100ml-neutrogena/" style="text-decoration: none; color: #fff; border: 0; font-weight: 400;">Esfoliante Facial Acne Proofing da Neutrogena</a> que limpa, reduz e ainda trata a acne.</p>
-                                </td>
-                                <td width="50" valign="top"></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left" valign="top" bgcolor="#ffffff" height="17">
-                    </td>
-                </tr>
-                <tr>
-                    <td bgcolor="#FFDBA9" style="background-image: url('images/03.png'); background-size: cover; background-position: left center; height: 314px;">
-                        <table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
-                            <tr>
-                                <td width="90" valign="top"></td>
-                                <td valign="top" width="159">
-                                    <table border="0" cellpadding="0" cellspacing="0" width="159" align="center">
-                                        <tr>
-                                            <td valign="top" width="188">
-                                                <div style="display: block; line-height: 10px; padding: 0">
-                                                    <a href="https://blumebeauty.com.br/produto/compative-acqua-gel-30g-ada-tina/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/produto-03.png" width="159" height="206" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="7" height="8"></td>
-                                        </tr>
-                                        <tr>
-                                            <tr>
-                                                <td valign="top" width="188">
-                                                    <div style="display: block; line-height: 10px; padding: 0">
-                                                        <a href="https://blumebeauty.com.br/produto/compative-acqua-gel-30g-ada-tina/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/amei.png" width="159" height="40" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <td width="54" valign="top"></td>
-                                <td>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #fff; margin: 0 0 25px; text-align: left; font-weight: 300; line-height: 28px;">A hidratação facial é um passo indispensável para qualquer rotina e a quantidade ideal é de apenas 2 grãos de ervilhas, não precisa exagerar, tá bom?</p>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #fff; margin: 0; text-align: left; font-weight: 300; line-height: 28px;">*Para uma hidratação perfeita, o nosso favorito é o <a href="https://blumebeauty.com.br/produto/compative-acqua-gel-30g-ada-tina/" style="text-decoration: none; color: #fff; border: 0; font-weight: 400;">Hidratante Facial Compative Acqua Gel Ada Tina</a>, que proporciona hidratação levíssima e refrescante para as peles oleosas a mistas.</p>
-                                </td>
-                                <td width="50" valign="top"></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left" valign="top" bgcolor="#FBF9F7" height="17">
-                    </td>
-                </tr>
-                <tr>
-                    <td bgcolor="#FFC2AD" style="background-image: url('images/04.png'); background-size: cover; background-position: left center; height: 315px;">
-                        <table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
-                            <tr>
-                                <td width="90" valign="top"></td>
-                                <td valign="top" width="159">
-                                    <table border="0" cellpadding="0" cellspacing="0" width="159" align="center">
-                                        <tr>
-                                            <td valign="top" width="188">
-                                                <div style="display: block; line-height: 10px; padding: 0">
-                                                    <a href="https://blumebeauty.com.br/produto/biosole-fluid-sun-color-fps98-ada-tina/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/produto-04.png" width="159" height="206" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="7" height="8"></td>
-                                        </tr>
-                                        <tr>
-                                            <tr>
-                                                <td valign="top" width="188">
-                                                    <div style="display: block; line-height: 10px; padding: 0">
-                                                        <a href="https://blumebeauty.com.br/produto/biosole-fluid-sun-color-fps98-ada-tina/" style="color: #fff; text-decoration: none; border: 0;"><img src="images/ahazou.png" width="159" height="40" alt="" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <td width="54" valign="top"></td>
-                                <td>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #fff; margin: 0 0 25px; text-align: left; font-weight: 300; line-height: 28px;">Por último, mas não menos importante, <a href="https://blumebeauty.com.br/product-category/pele/" style="text-decoration: none; color: #fff; border: 0; font-weight: 400;">o protetor solar</a>. Ele deve ser usado, no mínimo, 3 vezes ao dia, na quantidade também de uma colher de chá.</p>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #fff; margin: 0; text-align: left; font-weight: 300; line-height: 28px;">*A nossa dica é o <a href="https://blumebeauty.com.br/produto/biosole-fluid-sun-color-fps98-ada-tina/" style="text-decoration: none; color: #fff; border: 0; font-weight: 400;">Biosole Fluid Sun Color FPS98</a>, que além de ter uma proteção muito boa, ainda tem aquela corzinha pra você não precisar usar base!</p>
-                                </td>
-                                <td width="50" valign="top"></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td bgcolor="#FCFAF8" valign="top" style="background-image: url('images/bg-02.png'); background-size: cover; background-position: left top;">
-                        <table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
-                            <tr>
-                                <td width="50"></td>
-                                <td>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #595959; margin: 35px 0 35px; text-align: center; font-weight: 400; line-height: 24px;"><strong>E aí, gostou das nossas dicas?</strong></p>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #595959; margin: 0 0 30px; text-align: center; font-weight: 400; line-height: 24px;">A nossa intenção hoje foi te ajudar a parar de desperdiçar produto, e também economizar o seu rico dinheirinho te indicando só produtos de qualidade e com aquele precinho que a gente ama!</p>
+                                <td width="94" height="36" bgcolor="#D5D5D5"></td>
+                                <td width="512" rowspan="2" align="center" bgcolor="#D5D5D5">
                                     <div style="display: block; line-height: 10px; padding: 0">
-                                        <img src="https://media3.giphy.com/media/nmnGgiwgFdAhxFsrDt/giphy.gif?cid=dda24d50e73b545317274a303b99fb217346a1d510cfb8b1\u0026rid=giphy.gif\u0026ct=g" width="380" height="380" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none" />
-                                    </div>
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 21.6px; color: #595959; margin: 50px 0 40px; text-align: center; font-weight: 700; line-height: 24px;">Então, se você nos acompanhou até aqui, nosso muito obrigada.</p>
-                                </td>
-                                <td width="50"></td>
-                            </tr>
-                        </table>
-                        <table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
-                            <tr>
-                                <td width="70"></td>
-                                <td width="290">
-                                    <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 30.92px; color: #595959; margin: 0; text-align: left; font-weight: 700; line-height: 42px;">Nos vemos em <br>breve, com muita <br>economia e produtinhos maravilhosos!</p>
-                                </td>
-                                <td>
-                                    <div style="display: block; line-height: 10px; padding: 0">
-                                        <img src="images/ate-la.png" width="176" height="228" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none" />
+                                        <a href="https://posgraduacao.pucgoias.edu.br/diagnostico-por-imagem" style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 22px; font-weight: 700; color: #fff; text-decoration: none; border: 0;"><img src="images/button.png" width="512" height="73" alt="Pós-graduação - PUC Goiás" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
                                     </div>
                                 </td>
-                                <td width="50"></td>
+                                <td width="94" height="36" bgcolor="#D5D5D5"></td>
                             </tr>
                             <tr>
-                                <td colspan="4" height="30"></td>
+                                <td width="94" height="37" bgcolor="#ffffff"></td>
+                                <td width="94" height="37" bgcolor="#ffffff"></td>
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <tr>
-                    <td bgcolor="#009AFF" height="20">
+                    <td bgcolor="#ffffff" height="60"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#003154" height="50"></td>
+                </tr>
+                <tr>
+                    <td align="center" valign="middle" bgcolor="#003154">
                         <div style="display: block; line-height: 10px; padding: 0">
-                            <img src="images/sep-footer.png" width="700" height="20" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none" />
+                            <a href="https://posgraduacao.pucgoias.edu.br/diagnostico-por-imagem" style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 22px; font-weight: 700; color: #fff; text-decoration: none; border: 0;"><img src="images/logo.png" width="206" height="56" alt="Pós-graduação - PUC Goiás" align="absmiddle" border="0" style="border: none;display: block; margin: 0 auto 0 auto; text-decoration: none"></a>
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <td bgcolor="#009AFF" height="40"></td>
-                </tr>
-                <tr>
-                    <td align="center" valign="top" bgcolor="#009AFF">
-                        <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 15px; font-weight: 400; color: #ffffff; margin: 0; text-align: center;"><a href="https://www.facebook.com/blumebeautybrasil/" style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 15px; font-weight: 400; color: #ffffff; text-decoration: none; border: 0;"><img src="images/facebook.png" width="16" height="16" alt="BlumeBeautyBrasil" align="absmiddle" border="0" style="border: none;display: inline; margin: 0; vertical-align: absmiddle; text-decoration: none"> blumebeautybrasil</a> <strong style="font-weight: 700">&nbsp;|&nbsp;</strong> <a href="https://www.instagram.com/blumebeauty_/" style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 15px; font-weight: 400; color: #ffffff; text-decoration: none; border: 0;"><img src="images/instagram.png" width="16" height="16" alt="blumebeauty_" align="absmiddle" border="0" style="border: none;display: inline; margin: 0; vertical-align: absmiddle; text-decoration: none"> blumebeauty_</a></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td bgcolor="#009AFF" height="40"></td>
+                    <td bgcolor="#003154" height="55"></td>
                 </tr>
             </table>
-            <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 10px; color: #595a5c; margin: 20px 0 10px; text-align: center;">Caso n&atilde;o esteja visualizando corretamente esta mensagem, <a target="_BLANK" style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 10px;" href="{{__view}}">acesse este link</a></p>
-            <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 10px; color: #595a5c; text-align: center; margin: 10px 0 0"><a target="_BLANK" style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 10px;" href="{{__optout}}">Descadastre-se</a> caso n&atilde;o queira receber mais e-mails</center></p>
+            <p style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 10px; color: #595a5c; margin: 20px 0 10px; text-align: center;">Caso n&atilde;o esteja visualizando corretamente esta mensagem, <a target="_BLANK" style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 10px;" href="{{__view}}">acesse este link</a></p>
+            <p style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 10px; color: #595a5c; text-align: center; margin: 10px 0 0"><a target="_BLANK" style="font-family: 'Open Sans', Tahoma, sans-serif; font-size: 10px;" href="{{__optout}}">Descadastre-se</a> caso n&atilde;o queira receber mais e-mails</center></p>
         </div>
     </body>
 </html>
