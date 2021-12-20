@@ -1,16 +1,1 @@
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/8jRVZFP/FOTO-02.png" alt="FOTO-02" border="0" /></a>
-
-
-
-         <td>
-         <div style="display: block; line-height: 10px; padding: 0">
-         </div>
-         <p></p>
-         <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #000; margin: 0 0 25px; text-align: left; font-weight: 300; line-height: 28px;">A nossa primeira sugestão é para as amantes de maquiagens clássicas: Faça um <a href="https://blumebeauty.com.br/produto/delineador-meugatinho-boca-rosa/" style="color: #000">delineado</a> gatinho, use e abuse da <a href="https://blumebeauty.com.br/product-category/maquiagem/mascara/" style="color: #000" >máscara de cílios</a> e, para finalizar, passe aquele <a href="https://blumebeauty.com.br/product-category/maquiagem/batom/" style="color: #000">batom</a> vermelho pra arrasar! 
-         <p style="font-family: 'Oswald', Tahoma, sans-serif; font-size: 20.44px; color: #000; margin: 0 0 25px; text-align: left; font-weight: 300; line-height: 28px;">Para essa make, as nossas sugestões são: <a href="https://blumebeauty.com.br/produto/delineador-meugatinho-boca-rosa/" style="color: #000"><strong>Delineador #Meugatinho Boca Rosa da Payot</strong></a>, <a href="https://blumebeauty.com.br/product-category/maquiagem/mascara/" style="color: #000" ><strong>Máscara de Cílios Mais Longos WP Blackest Black da Revlon</strong></a> e o <a href="https://blumebeauty.com.br/product-category/maquiagem/batom/" style="color: #000"><strong>Batom Líquido Matte da Tracta</strong></a> 
-         </p>
-        </td>
-
-<a href="https://imgbb.com/">
-<img src="https://i.ibb.co/y6HWjnC/Olho-Esfumado.png" 
-alt="Olho-Esfumado" border="0" /></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/VTzs9m6/bot-o-03.png" alt="bot-o-03" border="0" /></a>
